@@ -1,7 +1,7 @@
 kind: Project
 apiVersion: project.openshift.io/v1
 metadata:
-  name: dev-env
+  name: gitops
   annotations:
     argocd.argoproj.io/sync-wave: "0"
 spec: {}
